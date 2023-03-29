@@ -1,0 +1,22 @@
+/* <!-- 导航栏区域样式--> */
+.navBox{
+	background-color:#2577e3 ;
+}
+.navBox .navCenterBox{
+	width: 1180px;
+	height: 40px;
+	margin: 0 auto;
+}
+.navBox .navCenterBox ul li{
+	float: left;
+	list-style: none;
+}
+.navBox .navCenterBox ul li a{
+	font-size: 15px;
+	color: white;
+	padding: 0 16px;
+	line-height: 40px;
+}
+.navBox .navCenterBox ul li:hover{
+	background-color: #0a56bb;
+}

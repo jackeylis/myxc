@@ -1,0 +1,57 @@
+/* <!-- 顶部导航搜索区域样式 --> */
+.searchBox{
+	
+}
+.searchBox .searchCenterBox{
+	width: 1180px;
+	height: 80px;
+	margin: 0 auto;
+}
+.searchBox .searchCenterBox .searcLeftBox{
+	float: left;
+	display: flex;
+	line-height: 80px;
+	color: #ccc;
+}
+.searchBox .searchCenterBox .searcLeftBox img{
+	width: 126px;
+	height: 43px;
+	margin-top: 18px;
+}
+.searchBox .searchCenterBox .searcLeftBox .searcInputBox{
+	margin-left: 60px;
+}
+ .searcInputBox .keywordsBox{
+	 padding: 4px;
+	 background-color: #fff;
+	 border: 1px solid #8EBEFC;
+	 width: 327px;
+	 height: 20px;
+	 border-radius:3px 0px 0px 3px;
+ }
+ .searcInputBox .searchBtn{
+	 width: 43px;
+	 height: 30px;
+	 background: #8ebefc url("../img/index/icon/find.png") no-repeat center;
+	 background-size: 20px;
+	 border-radius: 0px 3px 3px 0px;
+	 border: none;
+	 position: relative;
+	 top: 10px;
+	 margin-left: -5px;
+	 
+ }
+ .searcInputBox .searchBtn:hover{
+	 background:  url("../img/index/icon/find.png") #2577e3 no-repeat center;
+	 background-size: 20px;
+	 cursor: pointer;
+ }
+.searchBox .searchCenterBox .searchRightBox{
+	float: right;
+	color: #666;
+	text-align: right;
+	font-size: 12px;
+}
+.searchRightBox .topInfo{
+	margin-top: 24px;
+}

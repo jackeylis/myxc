@@ -1,0 +1,119 @@
+/* <!-- 头部区域样式 --> */
+*{
+	font-family: 微软雅黑;
+/* 	font-size: 12px; */
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	color: #666;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #3983E5;
+}
+li{
+	list-style: none;
+}
+.rePosition{
+	position: relative;
+}
+.jacPosition{
+	position: absolute;
+}
+.width910{
+	width: 910px;
+}
+.width680{
+	width: 680px;
+}
+.bottom10{
+	margin-bottom: 10px;
+}
+/* <!-- 头部区域样式 --> */
+.top10{
+	margin-top: 10px;
+}
+.bgBlue{
+	background: #ABCBF5;
+}
+.bgGreen{
+	background:#CBE2B3;
+}
+.bgOrange{
+	background:#F6DBB9;
+}
+.bgred{
+	background: #f8c2b3;	
+}
+.bgyellow{
+	background: #fbe09f;
+}
+.bgpurple{
+	background: #c3cbff;
+}
+.blueColor{
+	color:#2577E3;
+}
+.orangeColor{
+	color:#FFB759;
+}
+.font12{
+	font-size: 12px;
+}
+
+/* 头部核心布局 */
+.topBox{
+	background-color: #F4F4F4;
+}
+.topBox .topCenterBox{
+	width: 1180px;
+	height: 36px;
+	margin: 0 auto;
+}
+/* 左边内容 */
+.topBox .topCenterBox .topLeftBox{
+	float: left;
+	display: flex;
+	line-height: 36px;
+	color: #666;
+		font-size: 12px;
+}
+/* 右边内容 */
+.topBox .topCenterBox .topRightBox{
+	float: right;
+}
+.topLeftBox .earth{
+	width: 14px;
+	height: 14px;
+	margin-left: 14px;
+	margin-top: 2px;
+	position: relative;
+	top: 2px;
+}
+.topRightBox .phone{
+	width: 20px;
+	height: 16px;
+}
+.topRightBox .wechat{
+	width: 18px;
+	height: 16px;
+}
+.topRightBox .message{
+	width: 14px;
+	height: 12px;
+}
+.topRightBox ul li{
+	float:left;
+	line-height: 36px;
+	padding: 0px 14px;
+		font-size: 12px;
+}
+.topRightBox ul li a:hover{
+	color: #666;
+}
+
+
+

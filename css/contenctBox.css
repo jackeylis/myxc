@@ -1,0 +1,695 @@
+/* 下面的主内容区域样式 */
+.contenctBox{
+	width: 100%;
+	overflow: hidden;/* 为了解决浮动高度问题 */	
+	background: #f6f6f6;
+	padding-bottom: 30px;
+}
+.contenctBox .container{
+	width: 1180px;
+	overflow: hidden;/* 为了解决浮动高度问题 */	
+	margin: 0 auto;
+	padding-top: 30px;
+}
+/* 第一个热门区域 */
+.contenctBox .container .hotBox{
+	
+}
+.hotBox .hotNavBox{
+	border-bottom: 3px solid #0066CC;
+	height: 36px;
+	line-height: 36px;
+	margin-top: 30px;
+}
+.hotBox .hotNavBox #activeA{
+	position: relative;
+}
+.hotBox .hotNavBox ul li{
+	height: 36px;
+	float: left;
+	margin-right: 30px;
+	
+}
+.hotBox .hotNavBox ul li a{
+	font-size: 16px;
+	color: #333333;
+}
+.hotBox .hotNavBox ul li a:hover,.hotBox .hotNavBox #activeA a{
+	color: #0066CC;
+}
+/* 右侧的内容区域 */
+.hotBox .hotNavBox .ringhtOut{
+	font-size:12px;
+	color: #0066CC;
+	margin-top: 10px;
+	float: right;
+}
+.hotBox .hotNavBox .ringhtOut img{
+width: 10px;
+height: 7px;
+}
+.hotBox .hotNavBox ul li .top{
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	top: 27px;
+	left: 10px;
+}
+.hotBox .hotNavBox ul li .hot{
+	width: 40px;
+	height: 15px;
+	position: absolute;
+	top: -5px;
+	right: -15px;
+}
+.hotBox .hotNavBox ul li .new{
+	width: 30px;
+	height: 15px;
+	position: absolute;
+	top: -5px;
+	right: -14px;
+}
+/* 热门的外内容区域 */
+.hotContentBox{
+	padding: 15px;
+	border: 1px solid #DDDDDD;
+	background: white;
+}
+/* /下面的精选导航列表 */
+.navListBox{
+	/* 解决浮动问题 */
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.navListBox ul li{
+	padding: 2px 6px;
+	margin-left: 10px;
+	float: left;
+	font-size: 12px;
+	line-height: 16px;
+}
+.navListBox ul li a{
+	color: #3983E5;
+}
+.navListBox #active,.navListBox ul li:hover{
+	background:#3983E5;
+	border-radius: 3px;
+
+}
+.navListBox #active a,.navListBox ul li:hover a{
+	color: white;
+}
+/* 内容图片区域样式 */
+.picContentBox{
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.hotContentBox .picContentBox .picLeft{
+
+	height: 330px;
+	float: left;
+}
+.hotContentBox .picContentBox .picLeft .imgBox:nth-child(4),
+.hotContentBox .picContentBox .picLeft .imgBox:nth-child(8){
+	margin-right: 0px;
+}
+.hotContentBox .picContentBox .picLeft .imgBox{
+	width: 220px;
+	height: 160px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.hotContentBox .picContentBox .picLeft .imgBox img{
+	width: 220px;
+	height: 160px;
+}
+.picLeft .imgBox .topSaleBox{
+	width: 88px;
+	height: 20px;
+	background: #FF6913;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 0 0 10px 0;
+	color: white;
+	top: 0px;
+	left: 0px;
+}
+.picLeft .imgBox .picIntodusceBox{
+	 width: 112px;
+	 height: 112px;
+	 background: rgb(0,0,0,0.5);
+	 color: white;
+	 /* 定位到中心的方法 */
+	 left: 50%;
+	 top:50%;
+	 margin-left: -56px;
+	 margin-top: -56px;
+	 /* 定义圆形 */
+	 border-radius: 50%;
+	 font-size: 14px;
+}
+.picIntodusceBox p{
+	text-align: center;
+	font-size: 18px;
+	width: 106px;
+	margin: 0 auto;
+	margin-top:34px ;
+	border-bottom: 1px solid #959599;
+}
+.picIntodusceBox .money{
+	margin-left: 5px;
+	font-size: 12px;
+	position: relative;
+	top: -8px;
+	left: -5px;
+}
+.picIntodusceBox .price{
+	font-size: 22px;
+	color: #FF6600;
+	margin-left:-9px;
+}
+/* 右侧区域 */
+.hotContentBox .picContentBox .picRight{
+	width: 220px;
+	height: 330px;
+	float: right;
+}
+/* 第二个区域海外酒店区域样式 */
+.picContentBox  .newBox{
+	width: 227px;
+	float: left;
+	border-right: 1px dashed #CCCCCC;
+	margin-right: 10px;
+}
+ .picContentBox .newBox ul li{
+	 margin-top: 10px;
+	 width: 217px;
+	 text-overflow: ellipsis;
+ }
+ .picContentBox .newBox ul li a{
+	color: #666;
+	font-size: 13px;
+}
+ .picContentBox .newBox ul li a:hover{
+	 color: #3983E5;
+ }
+ .picContentBox .newBox .he{
+	 margin-top: 14px;
+ }
+.rightBox .width680 .imgBox:nth-child(3),
+.rightBox .width680 .imgBox:nth-child(6){
+ 	margin-right: 0px;
+ }
+.rightBox .width680 .imgBox:nth-child(5){
+	margin-left: 10px;
+}
+/* 右边图片文字处理 */
+.picIntro{
+	text-align: center;
+	width: 106px;
+	margin: 0 auto;
+	margin-top:20px ;
+	border-bottom: 1px solid #959599;
+}
+.picIntro h3{
+	font-weight: normal;
+	font-size: 18px;
+}
+.moneyBox{
+	text-align: center;
+}
+.moneyBox .money{
+	top: 0px;
+}
+/* d第三个国际机票区域样式 */
+ .hotContentBox .navListBox .psa ul li {
+	float: right;
+	color: #0066CC;
+}
+.airBox{
+	width: 196px;
+	height: 76px;
+	padding: 15px 12px;
+	 background: #f8f8f8;
+	 font-size: 12px;
+	 color: #000000;
+	 border-radius: 3px;
+	 float: left;
+	 margin-right: 5px;
+	 margin-bottom: 5px;
+}
+.airBox .airTime{
+	color: #999;
+	margin-top: 6px;
+}
+.airBox .airPrice{
+	color: #666666;
+		margin-top: 16px;
+}
+.airBox .price{
+	color: #FF6600;
+	font-size: 18px;
+}
+.airBox .monoeyTcon{
+	top: -5px;
+	right: -3px;
+}
+.airBox .butoon{
+	width: 58px;
+	height: 27px;
+	background: #FFB000;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	bottom: 10px;
+	right: 10px;
+}
+/* 第四个租车区域 */
+.carContentBox{
+	border: 1px solid #DDDDDD;
+	background: #fff;
+}
+.carContentBox .picContentBox{
+	margin-top: 0px;
+}
+.hotCity{
+	width: 224px;
+	height: 230px;
+	padding: 15px;
+	float: left;
+	border-right: 1px dashed #CCCCCC;
+	margin-right: 10px;
+	
+}
+.picLeft{
+	float: left;
+}
+.rightBox .psa{
+	float: right;
+}
+.hotCity ul li{
+	padding: 0 10px;
+	margin-top: 14px;
+	float: left;
+	border-left: 1px solid #ececec;
+	margin-left: -15px;
+	margin-right: 25px;
+}
+.hotCity ul li img{
+	width: 10px;
+	height: 10px;
+	right: 8px;
+	top: -3px;
+}
+.carBox .rightMoney .monoeyTcon{
+	font-size: 12px;
+	position: relative;
+	top: -8px;
+	left: 5px;
+}
+.carBox .rightMoney .price{
+	font-size: 22px;
+	color: #FF6600;
+	margin-left: 0px;
+}
+.carBox .rightMoney .perup{
+	font-size: 12px;
+}
+/* 右边租车列表样式 */
+.carBox{
+	width: 220px;
+	height: 200px;
+	font-size: 12px;
+	float: left;
+	margin-right: 8px;
+}
+.carBox img{
+	width: 220px;
+	height: 146px;
+}
+.carBox:hover{
+ box-shadow: 1px 1px 5px #CCCCCC;
+}
+.carWord{
+	font-size: 12px;
+	color: #666666;
+	padding: 0 5px;
+}
+.carWorda{
+	font-size: 12px;
+	color: #999999;
+	padding: 0 5px;
+}
+.rightMoney{
+	right: 5px;
+	bottom: 0px;
+}
+/* 第五个游玩区域样式 */
+.hotPlay{
+	width: 224px;
+	height: 230px;
+	padding: 15px;
+	float: left;
+	border-right: 1px dashed #CCCCCC;
+	margin-right: 10px;
+}
+.hotPlay ul li{
+	padding: 0 10px;
+	margin-top: 10px;
+	float: left;
+	border-left: 1px solid #ececec;
+	margin-left: -15px;
+	margin-right: 23px;
+}
+.PlayBox{
+	width: 220px;
+	height: 200px;
+	font-size: 12px;
+	float: left;
+	margin-right: 8px;
+}
+.PlayBox img{
+	width: 220px;
+	height: 146px;
+}
+.PlayBox:hover{
+	 box-shadow: 1px 1px 5px #CCCCCC;
+}
+.playWord{
+	font-size: 13px;
+	color: #666666;
+	padding: 0 5px;
+	/* 解决文字太多并且不显示一部分文字效果 */
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis ;
+}
+.playWorda{
+	font-size: 12px;
+	color: #999999;
+	padding: 0 5px;
+	margin-top: 5px;
+}
+.PlayBox .rightMoney .monoeyTcon{
+	font-size: 8px;
+	position: relative;
+	color: #999999;
+	top: -13px;
+	left: 6px;
+}
+.PlayBox .rightMoney .price{
+	font-size: 22px;
+	color: #FF6600;
+	margin-left: 0px;
+}
+.PlayBox .rightMoney .perup{
+	font-size: 12px;
+	color: #999999;
+}
+/* 第六个全球购区域样式 */
+.hotCity ul li{
+	padding: 0 10px;
+	margin-top: 14px;
+	float: left;
+	border-left: 1px solid #ececec;
+	margin-left: -15px;
+	margin-right: 25px;
+	}
+
+.hotPlay ul li img{
+	    width: 10px;
+	    height: 10px;
+	    right: 5px;
+	    top: -5px;
+}
+.PlayBox .rightMoney .play{
+		width: 40px;
+		height: 18px;
+		border: 1px solid #d18f00;
+		color: #d18f00;
+		background: #fff;
+}
+/* 第六个目的地区域样式 */
+.carContentBox .imgBox{
+	overflow: hidden;
+	float: left;
+	margin-right: 8px;
+}
+.imgBox .imgBottom{
+	width: 220px;
+	height: 30px;
+	background: rgba(0,0,0,0.5);
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	bottom: 0px;
+}
+.hotDestination{
+	width: 224px;
+	height: 190px;
+	padding: 15px;
+	float: left;
+	border-right: 1px dashed #CCCCCC;
+	margin-right: 10px;
+}
+.hotDestination ul li{
+	padding: 0 2px;
+	margin-top: 10px;
+	float: left;
+}
+/* 第八个旅行服务区域样式 */
+.travelMiddleBox{
+	overflow: hidden;
+	width: 1180px;
+	margin-top: 10px;
+}
+.travelBox{
+	width: 386px;
+	height: 147px;
+	float: left;
+	margin-right: 11px;
+}
+/* 让第三个模块区域右边距为0 */
+.travelBox:nth-child(3){
+	margin-right:0px;
+}
+.travelBox .travelTopBox{
+	width: 354px;
+	height: 84px;
+	background: #FFFFFF;
+	padding: 10px 10px 10px 20px;
+	border: 1px solid #CCCCCC;
+}
+.travelBox .travelTopBox .leftImgBox{
+	width: 70px;
+	height: 70px;
+	margin-left: 10px;
+	border-radius: 50%;
+	text-align: center;
+	float: left;
+}
+.travelBox .travelTopBox .leftImgBox img{
+	width: 45px;
+	height: 45px;
+	margin-top: 13px;
+}
+.travelBox  .travelTopBox .rightTravelBox{
+	float: left;
+	margin-left: 20px;
+	width: 240px;
+}
+.travelBox  .travelTopBox .rightTravelBox h3{
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.travelBox  .travelTopBox .rightTravelBox span{
+	font-size: 12px;
+	color: #666666;
+}
+/* 旅行服务下面的相关区域样式 */
+.travelBox .travelbooterBox ul{
+	overflow: hidden;
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	background: #FFFFFF;
+}
+.travelBox .travelbooterBox ul li{
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	
+}
+.travelBox .travelbooterBox ul li a{
+	width: 95px;
+	height: 24px;
+	display: block;
+	line-height: 24px;
+	margin-top: 8px;
+	border-right:1px dashed #CCCCCC;
+	color: #333333;
+}
+.travelBox .travelbooterBox ul li span{
+	position: relative;
+	top: -6px;
+	left: 5px;
+}
+.travelBox .travelbooterBox ul li:hover,.travelBox .travelTopBox:hover{
+	background: #E2EEFF;
+} 
+/* 底部第三个区域样式 */
+.travelBox .travelbooterjacBox ul{
+	overflow: hidden;
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	background: #FFFFFF;
+}
+
+.travelBox .travelbooterjacBox ul li{
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+}
+.travelBox .travelbooterjacBox ul li a{
+	width: 127px;
+	height: 24px;
+	display: block;
+	line-height: 24px;
+	margin-top: 8px;
+	border-right:1px dashed #CCCCCC;
+	color: #333333;
+}
+.travelBox .travelbooterjacBox ul li span{
+	position: relative;
+	top: -7px;
+	left: 5px;
+}
+.travelBox .travelbooterjacBox ul li:hover{
+	background: #E2EEFF;
+}
+/* 强制修改右边的边距让它不显示 */
+#brNone{
+	border-right: none;
+}
+
+/*第十个合作优惠区域样式*/
+.coporationBox{
+	width:1158px; 
+	border:1px solid #ccc;
+	padding:20px 0px 0px 11px;
+	overflow: hidden;
+	background: #fff;
+}
+.coporationBox h3{
+	font-weight: normal;
+	font-size: 16px;
+}
+.coporationBox .coporationTopBox{
+	height: 100px;
+}
+.coporationBox .coporationTopBox .coLeftBox{
+	height: 80px;
+	float: left;
+	border-right: 1px solid #ccc;
+}
+.coporationTopBox .coLeftBox .coTitleBox{
+	width: 217px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.coporationTopBox .coLeftBox .coTitleBox h3{
+	float: left;
+}
+.coporationTopBox .coLeftBox .coTitleBox a{
+	float: right;
+	color: #B6B6B6;
+	margin-right: 10px;
+}
+.coporationTopBox .coLeftBox .coLink{
+	display: block;
+	width:217px;
+}
+/*右边导航部分的样式编写*/
+.coporationTopBox .coRightBox{
+	float: left;
+	margin-left: 20px;
+	overflow: hidden;
+}
+.coporationTopBox .coRightBox h3{
+	width: 100%;
+}
+.coporationTopBox .coRightBox ul li{
+	width: 152px;
+	height: 34px;
+	border-right: 1px dashed #ccc;
+	float: left;
+	margin-top:20px;
+}
+.coporationTopBox .coRightBox ul li a{
+	display: block;
+	width:76px;
+	height: 28px;
+	margin: 0 auto;
+}
+/* 定位背景图片图片找对位置 */
+.coporationTopBox .coRightBox ul li:nth-child(1) a{
+	background: url("../img/index/pic_partner.png") no-repeat;
+	background-position: 0 0;
+}
+.coporationTopBox .coRightBox ul li:nth-child(2) a{
+	background: url("../img/index/pic_partner.png") no-repeat;
+	background-position: 0 -32px;
+}
+.coporationTopBox .coRightBox ul li:nth-child(3) a{
+	background: url("../img/index/pic_partner.png") no-repeat;
+	background-position: 0 -65px;
+}
+.coporationTopBox .coRightBox ul li:nth-child(4) a{
+	background: url("../img/index/pic_partner.png") no-repeat;
+	background-position: 0 -98px;
+}
+.coporationTopBox .coRightBox ul li:nth-child(5) a{
+	background: url("../img/index/pic_partner.png") no-repeat;
+	background-position: 0 -131px;
+}
+.coporationTopBox .coRightBox ul li:nth-child(6) a{
+	background: url("../img/index/pic_partner.png") no-repeat;
+	background-position: 0 -166px;
+}
+/*下面合作文字区域*/
+.coporationBottomBox .coLInkBox{
+	width: 1148px;
+	overflow: hidden;
+	font-size: 12px;
+	border-bottom: 1px dashed #ccc;
+	margin-right: 10px;
+	padding:6px 0;
+}
+.coporationBottomBox .coLInkBox span{
+	float: left;
+	color:#000000;
+	width: 75px;
+}
+.coporationBottomBox .coLInkBox ul{
+	overflow: hidden;
+	width:1073px;
+}
+.coporationBottomBox .coLInkBox ul li{
+	float: left;
+	width:85px;
+	height: 24px;
+}
+.coporationBottomBox .coLInkBox ul li a{
+	color:#B6B6B6;
+}
+.coporationBottomBox .coLInkBox ul li a:hover{
+	color:#258CEA;
+}

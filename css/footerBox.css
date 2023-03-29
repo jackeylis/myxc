@@ -1,0 +1,174 @@
+/* 底部区域样式 */
+.footerBox{
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+	padding-top: 28px;
+}
+.footerBox .footerTopBox{
+	overflow: hidden;
+}
+/*第一个盒子*/
+.footerOneBox{
+	width:245px;
+	height: 150px;
+	float: left;
+	overflow: hidden;
+	border-right: 1px dashed #ccc;
+}
+.footerBox .footerTopBox .title{
+	color:#666;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.footerBox .footerTopBox .footerIntroBox .commonBox{
+	width: 36px;
+	height: 36px;
+	float: left;
+	margin-right: 10px;
+}
+.footerTopBox a:hover{
+	color:#2577E3;
+}
+/* 左边放心服务图片位置 */
+.footerTopBox .footerIntroBox .leftImgBox1{
+	background: url("../img/index/pic_partner.png") no-repeat;
+	background-position: -41px -250px;
+}
+/* 左边放心价格图片位置 */
+.footerTopBox .footerIntroBox .leftImgBox2{
+	background: url("../img/index/pic_partner.png") no-repeat;
+	background-position: -41px -200px;
+}
+.footerBox .footerTopBox .footerIntroBox .pTitle{
+	font-size: 16px;
+}
+.footerBox .footerTopBox .footerIntroBox .pIntro{
+	font-size: 12px;
+}
+/*中间的携程资讯部分*/
+.footerTwoBox{
+	margin:0 auto;
+	float: left;
+	width: 240px;
+	border-right: 1px dashed #ccc;
+	padding-right:10px;
+	margin-left: 40px;
+}
+.footerTwoBox ul{
+	overflow: hidden;
+	width:200px;
+}
+.footerTwoBox ul li{
+	margin-top:10px;
+	font-size: 12px;
+	float: left;
+	margin-right: 20px;
+}
+.footerTwoBox ul li a{
+	color:#666;
+}
+.footerTwoBox .codeTitle{
+	font-size: 12px;
+	color:#666;
+	margin-bottom: 10px;
+	margin-right: 150px;
+	text-align: center;
+}
+.footerTwoBox .codeBox{
+	width:116px;
+	height: 136px;
+	border:1px solid #EFEFEF;
+	padding:8px;
+}
+.footerTwoBox .codeBox p{
+	color:#666;
+}
+
+/*底部区域的版权样式编写*/
+.copyRightBox{
+	width:100%;
+	margin-top:20px;
+	font-size: 12px;
+}
+.copyRightBox a{
+	
+}
+.copyRightBox p{
+	text-align: center;
+	color:#666666;
+}
+/*公安的网络左边的小图片*/
+.copyRightIcon{
+	display: inline-block;
+	position: relative;
+	top:3px;
+	width:20px;
+	height: 20px;
+	background: url("../img/index/phone_list20190617.png") no-repeat;
+	background-position: 2px -234px;
+}
+/*版权位置的图片展示区*/
+.copyRightImgBox ul{
+	overflow: hidden;
+	width: 1100px;
+	margin:0 auto;
+	margin-top: 20px;
+}
+.copyRightImgBox ul li{
+	border:1px solid #ccc;
+	margin-right: 10px;
+	float: left;
+}
+/* 底部小图片位置样式 */
+.copyRightImgBox ul li:nth-child(3) a,
+.copyRightImgBox ul li:nth-child(4) a,
+.copyRightImgBox ul li:nth-child(5) a,
+.copyRightImgBox ul li:nth-child(6) a,
+.copyRightImgBox ul li:nth-child(7) a{
+	display:block;
+	width:90px;
+	height: 32px;
+	background: url("../img/index/phone_list20190617.png") no-repeat;
+}
+.copyRightImgBox ul li:nth-child(1) img,
+.copyRightImgBox ul li:nth-child(2) img{
+	width:90px;
+	height:32px;
+}
+.copyRightImgBox ul li:nth-child(3) a{
+	background-position: 0 -50px;
+}
+.copyRightImgBox ul li:nth-child(4) a{
+	background-position: 0px -386px;
+}
+.copyRightImgBox ul li:nth-child(5) a{
+	background-position: 0 -118px;
+}
+.copyRightImgBox ul li:nth-child(6) a{
+	background-position: 0 -193px;
+}
+.copyRightImgBox ul li:nth-child(7) a{
+	background-position: -6px -430px;
+}
+.copyRightImgBox ul li:nth-child(8) a{
+	display: block;
+	width:116px;
+	height: 32px;
+	background: url("../img/index/phone_list20190617.png") no-repeat;
+	background-position: 0 -155px;
+}
+.copyRightImgBox ul li:nth-child(9) a{
+	display: block;
+	width: 52px;
+    height: 32px;
+    background: url("../img/index/phone_list20190617.png") no-repeat;
+    background-position: 0 -480px;
+}
+.copyRightImgBox ul li:nth-child(10) a{
+	display: block;
+	width: 132px;
+    height: 32px;
+    background: url("../img/index/phone_list20190617.png") no-repeat;
+    background-position: 0 -350px;
+}

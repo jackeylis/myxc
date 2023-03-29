@@ -1,0 +1,40 @@
+/* <!-- 导航栏 子搜索栏区域样式 --> */
+.menusBox{
+	height: 40px;
+	background-color: white;
+}
+.menusBox .menusCenterBox{
+	width: 1180px;
+	height: 40px;
+	margin: 0 auto;
+}
+.menusBox .menusCenterBox .menusInfo{
+	float: left;
+	background-color: #74A8ED;
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+	margin-right: 16px;
+	width: 67px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 3px;
+}
+.menusBox .menusCenterBox ul li{
+	float: left;
+}
+.menusBox .menusCenterBox ul li .menusIcon{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top:5px;
+	font-size: 12px;
+}
+.menusBox .menusCenterBox ul li a{
+	color: #666;
+	font-size: 12px;
+	padding: 0 6px;
+	line-height: 40px;
+}

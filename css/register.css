@@ -1,0 +1,111 @@
+/* 注册页面样式 */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/* 输入框大小 */
+.inputsize3{
+	
+}
+.registerContectBox{
+	width: 1180px;
+	height: 900px;
+	margin: 0 auto;
+}
+/* 中间头部图片区域 */
+.registerContectTop{
+	width: 1180px;
+	height: 80px;
+	line-height: 80px;
+	margin-top: 20px;
+}
+/* 中间表格区域 */
+.registerContecForm{
+	width: 450px;
+	height: 460px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background: #FFFFFF;
+}
+/* 输入框大小 */
+/* 证件号 */
+.inputsize3{
+	width: 350px;
+	height: 40px;
+	border-radius: 5px;
+	border:1px solid #CCCCCC;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+/* 表格性别 */
+.inputsize4{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+/* 表格证件类型 */
+.inp{
+	height: 25px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+/* 表格所在地 */
+.inp1{
+	width: 90px;
+	margin-top: 10px;
+	position: relative;
+	left: 15px;
+}
+/* 表格服务协议 */
+.inputsize5{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+/* 表格服务协议字体 */
+.font2{
+	position: relative;
+	left: 5px;
+	top: -2px;
+}
+/* 表格提交按钮 */
+.input6{
+	width: 220px;
+	height: 45px;
+	border: none;
+	color: #FFFFFF;
+	background: #ff9a14;
+	font-size: 15px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+/* 底部区域 */
+.registerContectFooter{
+	width: 1180px;
+	height: 60px;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-top: 1px dashed #acd252;
+	border-top-width: 4px;
+}
+.registerContectFooter p{
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.registerContectFooter .p{
+	margin-left: 400px;
+		color: #4c4c4c;
+}
+.registerContectFooter a{
+	border-right: 1px solid #4c4c4c;
+}
+.registerContectFooter a:nth-child(12){
+	border-right:none;
+}
+
+.registerContectFooter p a{
+	text-decoration: none;
+	color: #4c4c4c;
+	padding-right: 10px;
+
+}

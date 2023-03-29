@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.ContentBottomImg{
+	width: 380px;
+	height: 35px;
+}
+.ContentBottomImg ul{
+	overflow: hidden;
+}
+.ContentBottomImg ul li{
+	list-style: none;
+	margin-left: 15px;
+	float: left;
+}
+.ContentBottomImg ul li:nth-child(1) a,
+.ContentBottomImg ul li:nth-child(2) a,
+.ContentBottomImg ul li:nth-child(3) a,
+.ContentBottomImg ul li:nth-child(4) a,
+.ContentBottomImg ul li:nth-child(5) a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url("../img/login/login.png") no-repeat;
+}
+.ContentBottomImg ul li:nth-child(1) a{
+	background-position: 0px 0px;
+}
+.ContentBottomImg ul li:nth-child(2) a{
+	background-position: -35px 0px;
+}
+.ContentBottomImg ul li:nth-child(3) a{
+	background-position: -70px 0px;
+}
+.ContentBottomImg ul li:nth-child(4) a{
+	background-position: -105px 0px;
+}
+.ContentBottomImg ul li:nth-child(5) a{
+	background-position: -140px 0px;
+}
